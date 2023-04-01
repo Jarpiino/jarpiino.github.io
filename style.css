@@ -37,3 +37,15 @@ hr {
 .buffer{
   height:15rem
 }
+
+*{
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+h1{
+  --animate-delay: 0.5s;
+  --animate-duration: 0.8s;
+}
+section{
+  --animate-delay: 0.4s;
+  --animate-duration: 0.8s;
+}
